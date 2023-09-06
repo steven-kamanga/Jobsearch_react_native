@@ -1,10 +1,12 @@
 {
   "expo": {
-    "scheme": "acme",
-    "web": {
-      "bundler": "metro"
+    "extra": {
+      "eas": {
+        "projectId": "db3e8e62-7dde-4bd5-90ad-a7d93a0a298a"
+      }
     },
-    "name": "my-app",
-    "slug": "my-app"
+    "android": {
+      "package": "com.drplxrd.myapp"
+    }
   }
 }
